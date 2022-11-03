@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
@@ -27,7 +27,7 @@
   color: #64ffda;
   background: #eeeeee;
 }
-body{
+body {
   margin: 0;
   padding: 0;
   background-color: black;
@@ -42,10 +42,9 @@ body{
   border-width: 0.25em;
   border-style: double;
   padding: 2%;
-  
 }
 
-.main pre{
+.main pre {
   font-family: "VT323", monospace;
   font-size: 20px;
 }
@@ -55,7 +54,7 @@ body{
   color: lawngreen;
 }
 
-.command{
+.command {
   font-family: "VT323", monospace;
   font-size: 20px;
   border: none;
@@ -65,6 +64,6 @@ body{
   color: lawngreen;
 }
 
-.command:focus{
+.command:focus {
   outline: none;
 }
